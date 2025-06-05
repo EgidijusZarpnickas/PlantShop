@@ -1,0 +1,51 @@
+@use 'sass:color';
+
+
+
+$green: #50806B;
+$bggreen: #e8edde;
+$lgreen: #5bc08A;
+$black: #000;
+$red: #d11f1f;
+$textgrey: #7C8087;
+$white: #fff;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.wrapper {
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+   
+}
+
+.green{
+    background-color: $green;
+}
+
+
+.light-bg {
+    background: $bggreen;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.example {
+    font-weight: 600;
+    font-family: 'Poppins', serif;
+    font-size: 48px;
+    text-align: center;
+
+}

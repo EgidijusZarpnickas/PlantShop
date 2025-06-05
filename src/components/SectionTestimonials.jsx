@@ -1,0 +1,16 @@
+import './componentsStyle/sectiontestimonials.scss'
+import TestimonialsList from './TestimonialsList'
+
+export default function Sectiontestimonials() {
+
+
+    return(
+        <section className='light-bg'>
+            <div className='wrapper test-section'>
+                <h2 className='test-title'>Testimonials</h2>
+                <p className='test-text'>Plant parents love us </p>
+                <TestimonialsList></TestimonialsList>
+            </div>
+        </section>
+    )
+}

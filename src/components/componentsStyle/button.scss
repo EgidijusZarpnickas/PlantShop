@@ -1,0 +1,37 @@
+
+
+.button {
+    display: inline-block;
+    font-weight: 600;
+
+
+}
+
+.white-btn {
+    background-color: $white;
+    color: $black;
+    // width: 262px;
+    width: clamp(200px,20vw,262px);
+    height: 70px;
+    border-radius: 20px;
+    // font-size: 22px;
+    font-size: clamp(20px, 5vw, 22px);
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+    line-height: 70px ;
+
+
+}
+
+.green-btn {
+    background-color: $green;
+    border-radius: 8px;
+    color: $white;
+    max-width: 344px;
+    width: 100%;
+    font-size: 20px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+
+}

@@ -1,0 +1,19 @@
+
+
+.card {
+    text-align: center;
+    
+}
+
+.card-title{
+    margin-top: 24px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-size: 600;
+    color: $black;
+}
+
+.card-image{
+    box-shadow: 0px 8px 23px rgba(80, 107, 82, 0.16);
+    border-radius: 20px;
+}
